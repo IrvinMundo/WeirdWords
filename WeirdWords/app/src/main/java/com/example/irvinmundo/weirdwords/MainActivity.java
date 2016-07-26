@@ -9,5 +9,14 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        /*
+        if (Locale.getDefault().getLanguage().equals("en")) {
+             yourYesResponse = "That is great " + usersName + "!";
+         }
+         else if (Locale.getDefault().getLanguage().equals("fr")) {
+             yourYesResponse = "C\'est bon " + usersName + "!";
+         }
+         */
+
     }
 }
