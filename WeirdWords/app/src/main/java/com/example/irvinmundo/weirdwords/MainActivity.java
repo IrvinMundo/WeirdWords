@@ -9,6 +9,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+<<<<<<< HEAD
         /*
         if (Locale.getDefault().getLanguage().equals("en")) {
              yourYesResponse = "That is great " + usersName + "!";
@@ -18,5 +19,8 @@ public class MainActivity extends AppCompatActivity {
          }
          */
 
+=======
+        //agredando un comentario para ver que funcione Git
+>>>>>>> refs/remotes/origin/master
     }
 }
