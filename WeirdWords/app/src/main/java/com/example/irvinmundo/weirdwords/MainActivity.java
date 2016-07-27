@@ -2,18 +2,20 @@ package com.example.irvinmundo.weirdwords;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.TextView;
 
 import java.util.Locale;
 
 public class MainActivity extends AppCompatActivity {
 
+    private TextView textView;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-    }
 
-    public String onDetectLanguage(){
+        textView = (TextView) findViewById(R.id.textView3);
         String yourYesResponse = "Hello";
 
         if (Locale.getDefault().getLanguage().equals("en")) {
@@ -21,8 +23,8 @@ public class MainActivity extends AppCompatActivity {
         } else if (Locale.getDefault().getLanguage().equals("es")) {
             yourYesResponse = "Nombre de la app";
         }
-
-        return yourYesResponse;
+        textView.setText(yourYesResponse);
     }
+
 
 }
