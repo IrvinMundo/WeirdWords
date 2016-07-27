@@ -15,6 +15,8 @@ public class MainActivity extends AppCompatActivity {
 
     private Button button;
 
+    private Button button2;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -24,20 +26,41 @@ public class MainActivity extends AppCompatActivity {
 
         textView = (TextView) findViewById(R.id.textView3);
         String yourYesResponse = "Hello";
+        String nameButton = "Button";
+        String nameButton2 = "Button2";
+
 
         if (Locale.getDefault().getLanguage().equals("en")) {
             yourYesResponse = "Name of the app";
+            nameButton = "Word of the day!";
+            nameButton2 = "Diccionary";
         } else if (Locale.getDefault().getLanguage().equals("es")) {
             yourYesResponse = "Nombre de la app";
+            nameButton = "¡Palabra del día!";
+            nameButton2 = "Diccionario";
         }
         textView.setText(yourYesResponse);
+        button.setText(nameButton);
+        button2.setText(nameButton2);
 
         //hacer que los botones funcionen y redirijan
+
+        //FIRST BUTTON
         button = (Button)findViewById(R.id.button);
         button.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
                 Intent intent = new Intent(MainActivity.this, palabraDelDia.class);
+                startActivity(intent);
+            }
+        });
+
+        //SECOND BUTTON
+        button2 = (Button)findViewById(R.id.button2);
+        button.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                Intent intent = new Intent(MainActivity.this, diccionario.class);
                 startActivity(intent);
             }
         });
