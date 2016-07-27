@@ -6,4 +6,9 @@ package com.example.irvinmundo.weirdwords;
 public class palabraDelDia {
 
     //aquí trabajaremos con las fusion tables
+    String palabraDia;
+
+    public palabraDelDia(String palabraDia){
+        palabraDia = "tacos";
+    }
 }
