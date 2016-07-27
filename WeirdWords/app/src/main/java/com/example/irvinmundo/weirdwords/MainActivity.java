@@ -25,6 +25,9 @@ public class MainActivity extends AppCompatActivity {
         //Set the title of the Main Menu
 
         textView = (TextView) findViewById(R.id.textView3);
+        button = (Button)findViewById(R.id.button);
+        button2 = (Button)findViewById(R.id.button2);
+        
         String yourYesResponse = "Hello";
         String nameButton = "Button";
         String nameButton2 = "Button2";
@@ -46,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
         //hacer que los botones funcionen y redirijan
 
         //FIRST BUTTON
-        button = (Button)findViewById(R.id.button);
+
         button.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
@@ -56,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         //SECOND BUTTON
-        button2 = (Button)findViewById(R.id.button2);
+
         button.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
