@@ -11,12 +11,11 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         /*
         if (Locale.getDefault().getLanguage().equals("en")) {
-            yourYesResponse = "That is great " + usersName + "!";
-        }
-        else if (Locale.getDefault().getLanguage().equals("fr")) {
-            yourYesResponse = "C\'est bon " + usersName + "!";
-        }
-        */
+             yourYesResponse = "That is great " + usersName + "!";
+         }
+         else if (Locale.getDefault().getLanguage().equals("fr")) {
+             yourYesResponse = "C\'est bon " + usersName + "!";
+         }
+         */
         //agredando un comentario para ver que funcione Git
-    }
 }
