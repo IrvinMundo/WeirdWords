@@ -16,9 +16,9 @@ public class palabraDelDia extends AppCompatActivity{
     //aquí trabajaremos con las fusion tables
     String palabraDia;
 
-    public palabraDelDia(String palabraDia){
+    /*public palabraDelDia(String palabraDia){
         palabraDia = "tacos";
-    }
+    }*/
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
