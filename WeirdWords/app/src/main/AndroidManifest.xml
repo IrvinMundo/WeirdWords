@@ -15,12 +15,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".palabraDelDia">
-
-        </activity>
-        <activity android:name=".diccionario">
-
-        </activity>
+        <activity android:name=".palabraDelDia"></activity>
+        <activity android:name=".diccionario"></activity>
     </application>
 
 </manifest>

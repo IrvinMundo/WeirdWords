@@ -1,7 +1,13 @@
 package com.example.irvinmundo.weirdwords;
 
-/**
- * Created by ovman on 26/07/2016.
- */
-public class diccionario {
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+
+public class diccionario extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.diccionario_layout);
+    }
 }
