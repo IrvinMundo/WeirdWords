@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
 
         //SECOND BUTTON
 
-        button.setOnClickListener(new View.OnClickListener(){
+        button2.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
                 Intent intent = new Intent(MainActivity.this, diccionario.class);
