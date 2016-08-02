@@ -10,9 +10,9 @@ import android.widget.TextView;
 import java.util.Locale;
 
 public class MainActivity extends AppCompatActivity {
-<<<<<<< HEAD
+//<<<<<<< HEAD
 //Hola
-=======
+//=======
 
     private TextView textView;
 
@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
 
     private Button button2;
 
->>>>>>> master
+//>>>>>>> master
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
