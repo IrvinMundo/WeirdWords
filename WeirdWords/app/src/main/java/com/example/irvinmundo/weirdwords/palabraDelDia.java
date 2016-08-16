@@ -28,6 +28,3 @@ public class palabraDelDia extends AppCompatActivity{
     //private void setContentView(int palabra_del_dia_layout) {
     //}
 }
-
-
-
