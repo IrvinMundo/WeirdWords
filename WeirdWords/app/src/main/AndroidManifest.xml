@@ -16,7 +16,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".palabraDelDia" />
-        <activity android:name=".Diccionary"></activity>
+        <activity android:name=".Diccionary" />
+        <activity android:name=".VistaPalabra"></activity>
     </application>
 
 </manifest>
