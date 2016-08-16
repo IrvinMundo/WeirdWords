@@ -23,8 +23,8 @@ public class palabraDelDia extends AppCompatActivity{
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.palabra_del_dia_layout);
-    }
 
-    //private void setContentView(int palabra_del_dia_layout) {
-    //}
+        imageButton = (ImageButton)findViewById(R.id.imageButton);
+        
+    }
 }
