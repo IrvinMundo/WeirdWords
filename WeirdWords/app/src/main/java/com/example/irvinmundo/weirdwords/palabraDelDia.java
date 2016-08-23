@@ -25,6 +25,6 @@ public class palabraDelDia extends AppCompatActivity{
         setContentView(R.layout.palabra_del_dia_layout);
 
         imageButton = (ImageButton)findViewById(R.id.imageButton);
-        
+
     }
 }
