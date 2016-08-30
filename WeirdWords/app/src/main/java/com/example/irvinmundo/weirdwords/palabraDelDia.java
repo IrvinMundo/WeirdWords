@@ -25,6 +25,12 @@ public class palabraDelDia extends AppCompatActivity{
         setContentView(R.layout.palabra_del_dia_layout);
 
         imageButton = (ImageButton)findViewById(R.id.imageButton);
-
+        imageButton.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                Intent intent = new Intent(palabraDelDia.this, Diccionary.class);
+                startActivity(intent);
+            }
+        });
     }
 }

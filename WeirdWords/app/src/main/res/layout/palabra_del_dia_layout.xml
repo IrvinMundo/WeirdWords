@@ -28,7 +28,9 @@
             android:layout_below="@+id/textView"
             android:layout_alignStart="@+id/textView"
             android:layout_marginTop="42dp"
-            android:textSize="25dp" />
+            android:textSize="25dp"
+            android:layout_alignEnd="@+id/imageButton"
+            android:height="50dp" />
 
         <ImageButton
             android:layout_width="wrap_content"
